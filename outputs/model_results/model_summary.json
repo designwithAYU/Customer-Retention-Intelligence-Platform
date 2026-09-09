@@ -1,0 +1,29 @@
+{
+  "best_model": "Random Forest",
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6501,
+      "precision": 0.3377,
+      "recall": 0.7234,
+      "f1_score": 0.4604,
+      "roc_auc": 0.7407
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.8942,
+      "precision": 0.7095,
+      "recall": 0.8248,
+      "f1_score": 0.7628,
+      "roc_auc": 0.9447
+    }
+  ],
+  "total_revenue_at_risk": 1255230.23,
+  "high_risk_customers": 8884,
+  "medium_risk_customers": 7585,
+  "low_risk_customers": 35531,
+  "risk_thresholds": {
+    "high": 0.7,
+    "medium": 0.4
+  }
+}

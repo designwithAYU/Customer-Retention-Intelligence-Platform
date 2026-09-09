@@ -1,0 +1,10 @@
+test,variable,churned_mean,retained_mean,statistic,p_value,significant_at_0.05
+Independent t-test,Tenure (days),174.98,298.46,-70.857,0.00e+00,True
+Independent t-test,Monthly price,16.54,18.47,-16.469,1.66e-60,True
+Independent t-test,Average sessions,6.39,7.05,-19.506,7.91e-84,True
+Independent t-test,Support ticket count,1.83,1.42,25.915,4.91e-145,True
+Independent t-test,Average satisfaction score,2.63,2.94,-28.556,1.00e-174,True
+Chi-square test of independence,Billing cycle,,,543.513,3.24e-120,True
+Chi-square test of independence,Plan,,,318.55,9.61e-69,True
+Chi-square test of independence,Acquisition channel,,,320.602,3.14e-66,True
+Point-biserial correlation,Avg sessions vs churn,,,-0.084,5.47e-82,True

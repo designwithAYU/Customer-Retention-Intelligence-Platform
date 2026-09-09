@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+*.env
+secrets.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Large / generated data (raw data is reproducible via src/generate_data.py)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.db
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints
+
+# Power BI (binary, not diff-friendly; keep specs in powerbi/*.md instead)
+*.pbix
+
+# Logs
+*.log

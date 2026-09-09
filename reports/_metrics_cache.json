@@ -1,0 +1,106 @@
+{
+  "total_customers": 52000,
+  "active_customers": 41266,
+  "churned_customers": 10734,
+  "overall_churn_rate_pct": 20.64,
+  "total_subscriptions": 52563,
+  "total_transactions": 393498,
+  "total_revenue": 9908446.17,
+  "arpu": 190.55,
+  "churn_monthly_pct": 23.49,
+  "churn_annual_pct": 14.61,
+  "churn_by_plan": {
+    "Basic": 24.26,
+    "Enterprise": 14.82,
+    "Premium": 18.37,
+    "Standard": 20.59
+  },
+  "annualized_revenue_lost_to_churn": 1775700.24,
+  "segments": [
+    {
+      "segment": "Dormant",
+      "customers": 10816,
+      "total_revenue": 2579278.07,
+      "churn_rate": 0.0,
+      "pct_of_customers": 20.8,
+      "pct_of_revenue": 26.03
+    },
+    {
+      "segment": "VIP",
+      "customers": 7083,
+      "total_revenue": 2561912.74,
+      "churn_rate": 1.13,
+      "pct_of_customers": 13.62,
+      "pct_of_revenue": 25.86
+    },
+    {
+      "segment": "Loyal",
+      "customers": 8832,
+      "total_revenue": 1948651.06,
+      "churn_rate": 5.36,
+      "pct_of_customers": 16.98,
+      "pct_of_revenue": 19.67
+    },
+    {
+      "segment": "Lost",
+      "customers": 9277,
+      "total_revenue": 1142700.75,
+      "churn_rate": 100.0,
+      "pct_of_customers": 17.84,
+      "pct_of_revenue": 11.53
+    },
+    {
+      "segment": "Potential Loyal",
+      "customers": 11848,
+      "total_revenue": 1079961.96,
+      "churn_rate": 6.44,
+      "pct_of_customers": 22.78,
+      "pct_of_revenue": 10.9
+    },
+    {
+      "segment": "New",
+      "customers": 3437,
+      "total_revenue": 315669.55,
+      "churn_rate": 4.1,
+      "pct_of_customers": 6.61,
+      "pct_of_revenue": 3.19
+    },
+    {
+      "segment": "At Risk",
+      "customers": 707,
+      "total_revenue": 280272.04,
+      "churn_rate": 0.0,
+      "pct_of_customers": 1.36,
+      "pct_of_revenue": 2.83
+    }
+  ],
+  "model": {
+    "best_model": "Random Forest",
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 0.6501,
+        "precision": 0.3377,
+        "recall": 0.7234,
+        "f1_score": 0.4604,
+        "roc_auc": 0.7407
+      },
+      {
+        "model": "Random Forest",
+        "accuracy": 0.8942,
+        "precision": 0.7095,
+        "recall": 0.8248,
+        "f1_score": 0.7628,
+        "roc_auc": 0.9447
+      }
+    ],
+    "total_revenue_at_risk": 1255230.23,
+    "high_risk_customers": 8884,
+    "medium_risk_customers": 7585,
+    "low_risk_customers": 35531,
+    "risk_thresholds": {
+      "high": 0.7,
+      "medium": 0.4
+    }
+  }
+}
